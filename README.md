@@ -4,11 +4,17 @@ testpro
 задание 1 
 один робот догоняет другого после того, как пройдет черный квадрат 
 Answer
+
 1.ML
+
 2.IF FLAG GOTO 4
+
 3.GOTO 1
+
 4.ML
+
 5.ML
+
 6.GOTO 4
 
 задание 2
@@ -17,7 +23,10 @@ Answer
 
 3.запуск
 git clone https://github.com/DiSShoRt/testpro
+
 cd ./testpro
+
 docker build -t go-app .
+
 docker run  -p 5000:5000 -t go-app
 
